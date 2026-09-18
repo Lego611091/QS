@@ -13,8 +13,8 @@ export function BrandLogo({
   return (
     <span className={cn('inline-flex items-center gap-2', className)}>
       <Image
-        src="/quantum-logo.png"
-        alt="Quantum Services"
+        src="/Nebula-logo.png"
+        alt="Nebula"
         width={size}
         height={size}
         priority
@@ -22,8 +22,8 @@ export function BrandLogo({
         style={{ width: size, height: size }}
       />
       {withWordmark && (
-        <span className="font-display text-sm font-bold tracking-widest quantum-text-gradient">
-          QUANTUM
+        <span className="font-display text-sm font-bold tracking-widest Nebula-text-gradient">
+          NEBULA
         </span>
       )}
     </span>

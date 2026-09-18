@@ -20,8 +20,8 @@ export function TabStrip() {
     <div className="flex items-end gap-1 px-2 pt-2">
       <div className="mr-1 flex items-center gap-2 self-center pb-1 pl-1 pr-2">
         <BrandLogo size={22} />
-        <span className="hidden font-display text-sm font-bold tracking-wide quantum-text-gradient sm:inline">
-          QUANTUM
+        <span className="hidden font-display text-sm font-bold tracking-wide Nebula-text-gradient sm:inline">
+          NEBULA
         </span>
       </div>
 

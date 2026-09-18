@@ -6,7 +6,7 @@ import { Toolbar } from './toolbar'
 import { BrowserFrame } from './browser-frame'
 import { SidePanel } from './side-panel'
 
-export function QuantumBrowser() {
+export function Nebula() {
   return (
     <BrowserProvider>
       <div className="flex h-dvh flex-col overflow-hidden bg-background text-foreground">

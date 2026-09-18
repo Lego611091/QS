@@ -39,7 +39,7 @@ function Toggle({
       <span
         className={cn(
           'relative h-6 w-10 shrink-0 rounded-full transition-colors',
-          checked ? 'quantum-gradient' : 'bg-secondary',
+          checked ? 'Nebula-gradient' : 'bg-secondary',
         )}
       >
         <span

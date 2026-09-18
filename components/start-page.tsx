@@ -43,8 +43,8 @@ export function StartPage() {
 
       <div className="relative mx-auto flex min-h-full max-w-3xl flex-col items-center px-6 py-16">
         <Image
-          src="/quantum-logo.png"
-          alt="Quantum Services"
+          src="/Nebula-logo.png"
+          alt="Nebula"
           width={420}
           height={280}
           priority
@@ -68,7 +68,7 @@ export function StartPage() {
             />
             <button
               type="submit"
-              className="flex h-9 items-center gap-1.5 rounded-full quantum-gradient px-4 text-sm font-semibold text-white transition-opacity hover:opacity-90"
+              className="flex h-9 items-center gap-1.5 rounded-full Nebula-gradient px-4 text-sm font-semibold text-white transition-opacity hover:opacity-90"
             >
               <Zap className="size-4" />
               Go
@@ -83,7 +83,7 @@ export function StartPage() {
             onClick={() => setPanel('ai')}
             className="flex items-center gap-1.5 rounded-full border border-border bg-secondary/60 px-3 py-1.5 text-sm font-medium transition-colors hover:bg-secondary"
           >
-            <Sparkles className="size-4 text-quantum-pink" />
+            <Sparkles className="size-4 text-Nebula-pink" />
             Ask AI
           </button>
           <button

@@ -45,7 +45,7 @@ export function BrowserFrame() {
     <div className="relative h-full w-full bg-white">
       {activeTab.loading && (
         <div className="pointer-events-none absolute inset-x-0 top-0 z-10 h-0.5 overflow-hidden">
-          <div className="h-full w-1/3 animate-[loading_1.1s_ease-in-out_infinite] quantum-gradient" />
+          <div className="h-full w-1/3 animate-[loading_1.1s_ease-in-out_infinite] Nebula-gradient" />
         </div>
       )}
       {activeTab.loading && (

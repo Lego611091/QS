@@ -10,7 +10,7 @@ import { SettingsPanel } from './panels/settings-panel'
 const META = {
   history: { title: 'History', icon: History },
   bookmarks: { title: 'Bookmarks', icon: Bookmark },
-  ai: { title: 'Quantum AI', icon: Sparkles },
+  ai: { title: 'Nebula AI', icon: Sparkles },
   settings: { title: 'Settings', icon: Settings },
 } as const
 

@@ -1,5 +1,5 @@
-import { QuantumBrowser } from '@/components/quantum-browser'
+import { Nebula } from '@/components/Nebula'
 
 export default function Page() {
-  return <QuantumBrowser />
+  return <Nebula />
 }

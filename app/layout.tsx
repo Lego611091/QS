@@ -16,13 +16,13 @@ const orbitron = Orbitron({
 })
 
 export const metadata: Metadata = {
-  title: 'Quantum Services — Proxy Browser',
+  title: 'NEBULA — Proxy Browser',
   description:
     'A private proxy browser powered by Scramjet, Ultraviolet and Rammerhead with a built-in AI assistant, history, bookmarks and data privacy controls.',
   generator: 'v0.app',
   icons: {
-    icon: '/quantum-logo.png',
-    apple: '/quantum-logo.png',
+    icon: '/Nebula-logo.png',
+    apple: '/Nebula-logo.png',
   },
 }
 

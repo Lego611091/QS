@@ -24,7 +24,7 @@ export function BookmarksPanel() {
             </span>
             <p className="text-sm text-muted-foreground text-balance">
               No bookmarks yet. Tap the{' '}
-              <Star className="inline size-3.5 -translate-y-px text-quantum-orange" />{' '}
+              <Star className="inline size-3.5 -translate-y-px text-Nebula-orange" />{' '}
               star in the address bar to save a page.
             </p>
           </div>
@@ -34,7 +34,7 @@ export function BookmarksPanel() {
               key={b.id}
               className="group flex items-center gap-2 rounded-lg px-2 py-2 transition-colors hover:bg-secondary"
             >
-              <span className="flex size-7 shrink-0 items-center justify-center rounded-md quantum-gradient text-[10px] font-bold text-white">
+              <span className="flex size-7 shrink-0 items-center justify-center rounded-md Nebula-gradient text-[10px] font-bold text-white">
                 {hostname(b.url).slice(0, 2).toUpperCase()}
               </span>
               <button

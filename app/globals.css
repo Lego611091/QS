@@ -24,10 +24,10 @@
   --color-input: var(--input);
   --color-ring: var(--ring);
 
-  --color-quantum-purple: var(--quantum-purple);
-  --color-quantum-pink: var(--quantum-pink);
-  --color-quantum-blue: var(--quantum-blue);
-  --color-quantum-orange: var(--quantum-orange);
+  --color-Nebula-purple: var(--Nebula-purple);
+  --color-Nebula-pink: var(--Nebula-pink);
+  --color-Nebula-blue: var(--Nebula-blue);
+  --color-Nebula-orange: var(--Nebula-orange);
 
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   --font-display: var(--font-orbitron), var(--font-inter), sans-serif;
@@ -42,10 +42,10 @@
   color-scheme: dark;
 
   /* Logo-derived palette */
-  --quantum-purple: oklch(0.62 0.24 300);
-  --quantum-pink: oklch(0.65 0.26 350);
-  --quantum-blue: oklch(0.62 0.2 262);
-  --quantum-orange: oklch(0.72 0.19 45);
+  --Nebula-purple: oklch(0.62 0.24 300);
+  --Nebula-pink: oklch(0.65 0.26 350);
+  --Nebula-blue: oklch(0.62 0.2 262);
+  --Nebula-orange: oklch(0.72 0.19 45);
 
   --background: oklch(0.15 0.025 280);
   --foreground: oklch(0.96 0.01 280);

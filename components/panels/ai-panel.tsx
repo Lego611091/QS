@@ -12,7 +12,7 @@ interface Message {
 
 const SUGGESTIONS = [
   'Summarize the page I\u2019m on',
-  'Explain quantum entanglement simply',
+  'Explain Nebula entanglement simply',
   'Find privacy-friendly alternatives to Google',
 ]
 

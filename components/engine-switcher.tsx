@@ -42,7 +42,7 @@ export function EngineSwitcher({ variant = 'compact' }: { variant?: 'compact' | 
         )}
         title="Switch proxy engine"
       >
-        <span className="flex size-4 items-center justify-center rounded-full quantum-gradient">
+        <span className="flex size-4 items-center justify-center rounded-full Nebula-gradient">
           <Zap className="size-2.5 text-white" />
         </span>
         <span>{current.name}</span>
@@ -74,7 +74,7 @@ export function EngineSwitcher({ variant = 'compact' }: { variant?: 'compact' | 
                   active && 'bg-secondary',
                 )}
               >
-                <span className="mt-0.5 flex size-7 shrink-0 items-center justify-center rounded-lg quantum-gradient text-[11px] font-bold text-white">
+                <span className="mt-0.5 flex size-7 shrink-0 items-center justify-center rounded-lg Nebula-gradient text-[11px] font-bold text-white">
                   {engine.short}
                 </span>
                 <span className="min-w-0 flex-1">

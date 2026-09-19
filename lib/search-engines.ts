@@ -11,7 +11,7 @@ export const SEARCH_ENGINES: SearchEngine[] = [
   {
     id: 'duckduckgo',
     name: 'DuckDuckGo',
-    template: 'https://duckduckgo.com/?q={q}',
+    template: 'https://duckduckgo.com/',
     note: 'Private, no tracking',
   },
   {

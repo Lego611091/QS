@@ -17,7 +17,7 @@ export const SEARCH_ENGINES: SearchEngine[] = [
   {
     id: 'brave',
     name: 'Brave Search',
-    template: 'https://search.brave.com/search?q={q}',
+    template: 'https://search.brave.com/',
     note: 'Independent index, privacy focused',
   },
   {

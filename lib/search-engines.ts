@@ -21,28 +21,16 @@ export const SEARCH_ENGINES: SearchEngine[] = [
     note: 'Independent index, privacy focused',
   },
   {
-    id: 'startpage',
-    name: 'Startpage',
-    template: 'https://www.startpage.com/sp/search?query={q}',
-    note: 'Google results without tracking',
-  },
-  {
     id: 'google',
     name: 'Google',
-    template: 'https://www.google.com/search?q={q}',
+    template: 'https://www.google.com/',
     note: 'Largest index',
   },
   {
     id: 'bing',
     name: 'Bing',
-    template: 'https://www.bing.com/search?q={q}',
+    template: 'https://www.bing.com/',
     note: 'Microsoft search',
-  },
-  {
-    id: 'ecosia',
-    name: 'Ecosia',
-    template: 'https://www.ecosia.org/search?q={q}',
-    note: 'Plants trees with ad revenue',
   },
 ]
 

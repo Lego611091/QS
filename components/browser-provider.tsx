@@ -24,7 +24,7 @@ export type PanelId = 'history' | 'bookmarks' | 'ai' | 'settings' | null
 
 const DEFAULT_SETTINGS: Settings = {
   engine: 'scramjet',
-  searchEngineId: 'duckduckgo',
+  searchEngineId: 'Bing',
   proxyServers: { scramjet: '', ultraviolet: '', rammerhead: '' },
   saveHistory: true,
   blockAds: true,
